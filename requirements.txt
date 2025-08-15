@@ -1,0 +1,8 @@
+blenderproc
+numpy
+matplotlib
+Pillow
+bpy
+ultralytics
+opencv-python
+torch
