@@ -9,7 +9,7 @@ import colorsys
 
 cam_path   = "/datashare/project/camera.json"
 bg_dir     = "/datashare/project/train2017"
-num_images = 50
+num_images = 48
 
 
 hdr_base_dir = "/datashare/project/haven/hdris"
