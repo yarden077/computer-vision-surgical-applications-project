@@ -52,7 +52,9 @@ python predict.py
 The predictions (bounding boxes + keypoints) will be saved under runs/pose/predict*/.
 
 ##  Final Model Weights
-•	Phase 2 (Synthetic-only model): [Download here]()
+•	Phase 2 (Synthetic-only model): [Download here](https://technionmail-my.sharepoint.com/:u:/r/personal/yarden_nahum_campus_technion_ac_il/Documents/computer%20vision/weights/phase2_best.pt?csf=1&web=1&e=dNhmgR)
+
+
 •	Phase 3 (Refined model): [Download here](https://technionmail-my.sharepoint.com/:u:/r/personal/yarden_nahum_campus_technion_ac_il/Documents/computer%20vision/weights/best.pt?csf=1&web=1&e=Ct3uJt)
 
 ## Repository Structure
