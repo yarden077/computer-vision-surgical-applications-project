@@ -25,7 +25,7 @@ The workflow is divided into 4 main steps:
 
 Run the BlenderProc script to generate synthetic datasets with annotations:
 ```bash
-python synthetic_data_generator.py
+blenderproc run synthetic_data_generator.py
 ```
 2. Training on Synthetic Data
 Train YOLO-Pose on the generated dataset:
