@@ -14,7 +14,7 @@ The project is structured into three phases:
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/computer-vision-surgical-applications-project.git
+git clone https://github.com/yarden077/Computer-Vision-Surgical-Applications
 ```
 ## Install dependencies:
 ```bash
