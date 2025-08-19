@@ -42,18 +42,31 @@ python pseudo_label.py
 This will generate pseudo-labels for the real dataset and allow you to retrain/refine the model.
 
 4. Inference
-	•	On images:
+•	On images:
 ```bash
 python predict.py
 ```
-	•	On videos:
+
+•	On videos:
  ```bash
  python video.py --source path/to/video.mp4
 ```
 The predictions (bounding boxes + keypoints) will be saved under runs/pose/predict*/.
 
 ##  Final Model Weights
-	•	Phase 2 (Synthetic-only model): [Download here]()
- 
+•	Phase 2 (Synthetic-only model): [Download here]()
+•	Phase 3 (Refined model): [Download here]()
+
+## Repository Structure
+ ```bash
+computer-vision-surgical-applications-project/
+│── examples/                     # Example predictions and results
+│── weights/                      # Folder for saving trained weights
+│── predict.py                    # Run inference on images
+│── video.py                      # Run inference on videos
+│── synthetic_data_generator.py   # Generate synthetic data with BlenderProc
+│── requirements.txt              # Environment dependencies
+│── README.md                     # Project documentation (this file)
+```
 
 
