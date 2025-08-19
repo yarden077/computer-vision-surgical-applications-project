@@ -47,7 +47,7 @@ python predict.py
 
 •	On videos:
  ```bash
- python video.py --source path/to/video.mp4
+ python video.py
 ```
 The predictions (bounding boxes + keypoints) will be saved under runs/pose/predict*/.
 
