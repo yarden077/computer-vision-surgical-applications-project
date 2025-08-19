@@ -60,7 +60,7 @@ The predictions (bounding boxes + keypoints) will be saved under runs/pose/predi
 ## Repository Structure
  ```bash
 computer-vision-surgical-applications-project/
-│── examples/                     # Example predictions and results
+│── examples/                     # Example of synthetic data
 │── predict.py                    # Run inference on images
 │── video.py                      # Run inference on videos
 │── synthetic_data_generator.py   # Generate synthetic data with BlenderProc
