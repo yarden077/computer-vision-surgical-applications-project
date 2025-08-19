@@ -65,7 +65,6 @@ computer-vision-surgical-applications-project/
 │── video.py                      # Run inference on videos
 │── synthetic_data_generator.py   # Generate synthetic data with BlenderProc
 │── requirements.txt              # Environment dependencies
-│── README.md                     # Project documentation (this file)
 ```
 
 
