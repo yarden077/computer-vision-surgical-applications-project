@@ -10,11 +10,9 @@ The project is structured into three phases:
 ---
 
 ##  Environment Setup
-
 Clone the repository:
-
 ```bash
-git clone https://github.com/yarden077/Computer-Vision-Surgical-Applications
+git clone https://github.com/yarden077/computer-vision-surgical-applications-project
 ```
 ## Install dependencies:
 ```bash
