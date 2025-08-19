@@ -30,12 +30,14 @@ blenderproc run synthetic_data_generator.py
 2. Training on Synthetic Data
 Train YOLO-Pose on the generated dataset:
 ```bash
-yolo pose train model=yolov11l-pose.pt data=data.yaml epochs=500 imgsz=640
+yolo pose train model=yolov11l-pose.pt data=data.yaml epochs=50 imgsz=640
 ```
 3. Refinement with Real Unlabeled Data
 Use pseudo-labeling to adapt the synthetic-trained model to real surgical videos:
 ```bash
-phase3.ipynb
+```bash
+yolo pose train model=yolov11l-pose.pt data=data.yaml epochs=25 imgsz=640
+```
 ```
 This will generate pseudo-labels for the real dataset and allow you to retrain/refine the model.
 
