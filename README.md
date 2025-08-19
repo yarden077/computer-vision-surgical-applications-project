@@ -53,13 +53,12 @@ The predictions (bounding boxes + keypoints) will be saved under runs/pose/predi
 
 ##  Final Model Weights
 •	Phase 2 (Synthetic-only model): [Download here]()
-•	Phase 3 (Refined model): [Download here]()
+•	Phase 3 (Refined model): [Download here](https://technionmail-my.sharepoint.com/:u:/r/personal/yarden_nahum_campus_technion_ac_il/Documents/computer%20vision/weights/best.pt?csf=1&web=1&e=Ct3uJt)
 
 ## Repository Structure
  ```bash
 computer-vision-surgical-applications-project/
 │── examples/                     # Example predictions and results
-│── weights/                      # Folder for saving trained weights
 │── predict.py                    # Run inference on images
 │── video.py                      # Run inference on videos
 │── synthetic_data_generator.py   # Generate synthetic data with BlenderProc
